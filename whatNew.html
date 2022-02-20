@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>DROSS</title>
+    <!--  Main templete css file -->
+    <link rel="stylesheet" href="CSS FOLDER/whatNew.css">
+    <!-- Render all elments normally-->
+    <link rel="stylesheet" href="CSS FOLDER/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS FOLDER/all.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+      <!-- icon IMAGE -->
+      <link rel="icon" href="img/education.png">
+  </head>
+<body>
+  <header>
+    <div class="containerr">
+      <nav>
+        <a href="#" class="logo" id="logo">Dross</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html" class="active">تاتية ثانوي</a></li>
+            <li><a href="first_tirm.html">ترم اول</a></li>
+            <li><a href="sec_tirm.html">ترم تاني</a></li>
+            <li><a href="whatNew.html">ما الجديد؟</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      </div>
+      </header>
+
+      <div class="whatNew">
+        <h2>ما الجديد؟ -</h2>
+        <ul dir="rtl">
+          <li>* تم اضافة صورة لكل مادة</li>
+          <li>* تم إنشاء قسم لي العلمي و قسم لي الأدبي</li>
+          <li>* تم إنشاء [Side Bar]</li>
+          <li>* تم اضافة محتوى الترم التاني لي [العلمي / الادبي]</li>
+          <li>* تم اضافة عداد وقت لي موعد امتحانات الترم التاني</li>
+          <li>* تم تحسين فديوهات المدرسين و تطويرها لي الترم التاني</li>
+          <li>* إضافة لوجو لي الويب سايت</li>
+          <li>* تم اضافة مادة [French]</li>
+          <div class="dot"></div>
+        </ul>
+        
+      </div>
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0"
+        }
+        function hideMenu() {
+          navLinks.style.right = "-200px"
+        }
+      </script>
+</body>
+</html>
