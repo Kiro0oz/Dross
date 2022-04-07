@@ -286,6 +286,11 @@ footer .icon a {
   color: #2196f3;
 }
 
+.port {
+  color: rgb(0, 158, 231);
+  text-decoration: underline;
+}
+
 .up {
   position: fixed;
   right: 0;
