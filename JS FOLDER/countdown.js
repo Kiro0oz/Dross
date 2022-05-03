@@ -1,6 +1,6 @@
 // The end of the sec tirm to countdown
 
-let countDown = new Date("Apr 30, 2022 23:59:59").getTime();
+let countDown = new Date("may 11, 2022 23:59:59").getTime();
 // console.log(countDown);
 
 let counter = setInterval(() => {
